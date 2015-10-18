@@ -1,6 +1,6 @@
 ----------------------------------------------------
-# This is a maintained version of Torshammer  
-## It works with the new TOR port 9150  
+## This is a maintained version of Torshammer  
+### It works with the new TOR port 9150  
 
 
 ######TORS HAMMER TUTORIAL  
