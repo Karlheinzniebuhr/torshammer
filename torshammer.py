@@ -84,7 +84,8 @@ class httpPost(Thread):
             while self.running:
                 try:
                     if self.tor:
-                        self.socks.set_proxy(socks.SOCKS5, "localhost", 9150)
+                        self.socks.set_proxy(socks.SOCKS5, '127.0.0.1', 9150)
+                        time.sleep(1)
                     self.socks.connect((self.host, self.port))
                     print term.BOL+term.UP+term.CLEAR_EOL+"Connected to host..."+ term.NORMAL
                     break
