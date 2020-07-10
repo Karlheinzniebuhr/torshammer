@@ -162,7 +162,7 @@ def main(argv):
 
     while len(rthreads) > 0:
         try:
-            rthreads = [t.join(1) for t in rthreads if t is not None and t.isAlive()]
+            rthreads = [t.join(1) for t in rthreads if t is not None and t.is_alive()]
         except KeyboardInterrupt:
             print("\nShutting down threads...\n")
             for t in rthreads:
