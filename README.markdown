@@ -4,14 +4,14 @@ It works with the new TOR port 9150
 
 #### TORS HAMMER HOW TO  
 ----------------------------------------------------
-```bash
+```console
 python torshammer.py
 ```
 You should now see a terminal-based GUI interface.
 **Tor'shammer interface has it's own basic help menu that tells you how to run the script according to your target.**
 
 Example usage:
-```bash
+```console
 python torshammer.py -t 192.168.1.100 -r 100000 -T
 ```
 - The larger the thread count, the more efficient and effective the attack!!
