@@ -1,4 +1,6 @@
 ----------------------------------------------------
+# Use for educational purposes ONLY
+
 ## This is a maintained fork of Torshammer  
 It works with the new TOR port 9150  
 
